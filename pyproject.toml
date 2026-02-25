@@ -2,9 +2,11 @@
 name = "automaton-auditor-interim"
 version = "0.1.0"
 description = "Interim submission scaffold for The Automaton Auditor (Week 2)"
+requires-python = ">=3.8, <3.12"
 dependencies = [
-    "pydantic>=1.10",
-    "PyPDF2>=3.0.0",
+    "pydantic>=2.10.6",
+    "PyPDF2>=3.0.1",
+    "fpdf>=1.7.2",
 ]
 
 [build-system]
